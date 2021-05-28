@@ -247,9 +247,9 @@
     return origin;
   }
 
-  function setCanvasWindowSize(canvas) {
-    canvas.width = document.documentElement.clientWidth;
-    canvas.height = document.documentElement.clientHeight;
+  function setCanvasWindowSize(canvas){
+    canvas.width = document.querySelector('main').clientWidth;
+    canvas.height = document.querySelector('main').clientHeight;
   }
 
   function setCanvasRectSize(canvas) {
